@@ -1,9 +1,9 @@
 # Danh sách lỗi — SAU người duyệt (v3)
-ảnh đã quét: 193
+ảnh đã quét: 202
 
 label_format -> 9 dòng
-missing_labels -> 5 dòng
-second_opinion -> 13 dòng
+missing_labels -> 6 dòng
+second_opinion -> 16 dòng
 
 [WARN ] BOX_HUGE             img_0018.txt:1  box chiếm 97.0% ảnh (> 95%)
 [WARN ] BOX_HUGE             img_0128.txt:1  box chiếm 98.8% ảnh (> 95%)
@@ -14,6 +14,7 @@ second_opinion -> 13 dòng
 [WARN ] BOX_TINY             img_0161.txt:3  cạnh ngắn của box 11.4px < 12.0px
 [WARN ] BOX_TINY             img_0161.txt:4  cạnh ngắn của box 11.9px < 12.0px
 [WARN ] BOX_TINY             img_0183.txt:11  cạnh ngắn của box 11.8px < 12.0px
+[WARN ] EMPTY_LABEL          img_0013  file nhãn rỗng: ảnh nền hay thiếu nhãn?
 [WARN ] EMPTY_LABEL          img_0097  file nhãn rỗng: ảnh nền hay thiếu nhãn?
 [WARN ] EMPTY_LABEL          img_0129  file nhãn rỗng: ảnh nền hay thiếu nhãn?
 [WARN ] EMPTY_LABEL          img_0147  file nhãn rỗng: ảnh nền hay thiếu nhãn?
@@ -26,19 +27,23 @@ second_opinion -> 13 dòng
 [WARN ] POSSIBLE_FALSE_POS   img_0091.txt:10  box truck ở dòng 10 không khớp vật nào model thấy (IoU tốt nhất 0.12)
 [WARN ] POSSIBLE_FALSE_POS   img_0124.txt:8  box person ở dòng 8 không khớp vật nào model thấy (IoU tốt nhất 0.04)
 [WARN ] POSSIBLE_FALSE_POS   img_0131.txt:11  box person ở dòng 11 không khớp vật nào model thấy (IoU tốt nhất 0.00)
+[WARN ] POSSIBLE_FALSE_POS   img_0177.txt:2  box bus ở dòng 2 không khớp vật nào model thấy (IoU tốt nhất 0.00)
+[WARN ] POSSIBLE_FALSE_POS   img_0180.txt:5  box bus ở dòng 5 không khớp vật nào model thấy (IoU tốt nhất 0.00)
 [WARN ] POSSIBLE_FALSE_POS   img_0189.txt:4  box car ở dòng 4 không khớp vật nào model thấy (IoU tốt nhất 0.01)
 [WARN ] POSSIBLE_FALSE_POS   img_0191.txt:1  box car ở dòng 1 không khớp vật nào model thấy (IoU tốt nhất 0.26)
 [WARN ] POSSIBLE_FALSE_POS   img_0206.txt:1  box person ở dòng 1 không khớp vật nào model thấy (IoU tốt nhất 0.11)
 [WARN ] POSSIBLE_FALSE_POS   img_0212.txt:4  box person ở dòng 4 không khớp vật nào model thấy (IoU tốt nhất 0.15)
+[WARN ] POSSIBLE_LOOSE_BOX   img_0021  box person lệch/lỏng so với model (IoU 0.49 < 0.5)
 [WARN ] POSSIBLE_MISSING     img_0183  model thấy person (conf 0.81) nhưng nhãn không có box nào ở đó
 [WARN ] POSSIBLE_WRONG_CLASS img_0078  nhãn ghi truck nhưng model nói car (conf 0.83, IoU 0.92)
 
 ## Tổng hợp theo mã
 warn  BOX_HUGE               3
 warn  BOX_TINY               6
-warn  EMPTY_LABEL            5
-warn  POSSIBLE_FALSE_POS     11
+warn  EMPTY_LABEL            6
+warn  POSSIBLE_FALSE_POS     13
+warn  POSSIBLE_LOOSE_BOX     1
 warn  POSSIBLE_MISSING       1
 warn  POSSIBLE_WRONG_CLASS   1
 
-Kết luận: RELEASE — Không còn lỗi bắt buộc; 13/193 ảnh còn cảnh báo chưa duyệt (6.74% < ngưỡng 10.00%) -> được phát hành.; Đã bỏ qua cảnh báo của 80 ảnh đã được người duyệt.
+Kết luận: RELEASE — Không còn lỗi bắt buộc; 16/202 ảnh còn cảnh báo chưa duyệt (7.92% < ngưỡng 10.00%) -> được phát hành.; Đã bỏ qua cảnh báo của 80 ảnh đã được người duyệt.

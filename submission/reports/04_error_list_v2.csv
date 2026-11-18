@@ -6,6 +6,7 @@ missing_labels,error,MISSING_LABEL_FILE,img_0135,,ảnh không có file nhãn,
 missing_labels,error,MISSING_LABEL_FILE,img_0170,,ảnh không có file nhãn,
 missing_labels,error,MISSING_LABEL_FILE,img_0219,,ảnh không có file nhãn,
 missing_labels,warn,EMPTY_LABEL,img_0004,,file nhãn rỗng: ảnh nền hay thiếu nhãn?,
+missing_labels,warn,EMPTY_LABEL,img_0013,,file nhãn rỗng: ảnh nền hay thiếu nhãn?,
 missing_labels,warn,EMPTY_LABEL,img_0050,,file nhãn rỗng: ảnh nền hay thiếu nhãn?,
 missing_labels,warn,EMPTY_LABEL,img_0057,,file nhãn rỗng: ảnh nền hay thiếu nhãn?,
 missing_labels,warn,EMPTY_LABEL,img_0065,,file nhãn rỗng: ảnh nền hay thiếu nhãn?,
@@ -36,6 +37,7 @@ second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0015,,box person lệch/lỏng so v�
 second_opinion,warn,POSSIBLE_WRONG_CLASS,img_0019,,"nhãn ghi truck nhưng model nói car (conf 0.94, IoU 0.99)","{""conf"": 0.941, ""iou"": 0.9876, ""label_class"": 2, ""pred_class"": 0}"
 second_opinion,warn,POSSIBLE_WRONG_CLASS,img_0020,,"nhãn ghi truck nhưng model nói bus (conf 0.95, IoU 0.94)","{""conf"": 0.9474, ""iou"": 0.9433, ""label_class"": 2, ""pred_class"": 3}"
 second_opinion,warn,POSSIBLE_MISSING,img_0020,,model thấy person (conf 0.84) nhưng nhãn không có box nào ở đó,"{""conf"": 0.8408, ""class_id"": 1, ""box"": [0.720967, 0.643165, 0.051448, 0.24493]}"
+second_opinion,warn,POSSIBLE_WRONG_CLASS,img_0021,,"nhãn ghi car nhưng model nói person (conf 0.93, IoU 0.97)","{""conf"": 0.9339, ""iou"": 0.9719, ""label_class"": 0, ""pred_class"": 1}"
 second_opinion,warn,POSSIBLE_MISSING,img_0022,,model thấy car (conf 0.85) nhưng nhãn không có box nào ở đó,"{""conf"": 0.8483, ""class_id"": 0, ""box"": [0.086401, 0.969999, 0.171808, 0.057245]}"
 second_opinion,warn,POSSIBLE_FALSE_POS,img_0024,7,box car ở dòng 7 không khớp vật nào model thấy (IoU tốt nhất 0.10),"{""iou"": 0.0972, ""class_id"": 0}"
 second_opinion,warn,POSSIBLE_MISSING,img_0028,,model thấy person (conf 0.94) nhưng nhãn không có box nào ở đó,"{""conf"": 0.9406, ""class_id"": 1, ""box"": [0.449053, 0.474021, 0.628294, 0.521806]}"
@@ -44,6 +46,7 @@ second_opinion,warn,POSSIBLE_WRONG_CLASS,img_0034,,"nhãn ghi car nhưng model n
 second_opinion,warn,POSSIBLE_FALSE_POS,img_0035,2,box person ở dòng 2 không khớp vật nào model thấy (IoU tốt nhất 0.00),"{""iou"": 0.0, ""class_id"": 1}"
 second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0036,,box person lệch/lỏng so với model (IoU 0.43 < 0.5),"{""conf"": 0.8733, ""iou"": 0.4265, ""class_id"": 1}"
 second_opinion,warn,POSSIBLE_WRONG_CLASS,img_0037,,"nhãn ghi truck nhưng model nói car (conf 0.91, IoU 0.97)","{""conf"": 0.9134, ""iou"": 0.9686, ""label_class"": 2, ""pred_class"": 0}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0038,,box person lệch/lỏng so với model (IoU 0.40 < 0.5),"{""conf"": 0.9212, ""iou"": 0.3975, ""class_id"": 1}"
 second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0046,,box person lệch/lỏng so với model (IoU 0.38 < 0.5),"{""conf"": 0.8928, ""iou"": 0.3823, ""class_id"": 1}"
 second_opinion,warn,POSSIBLE_MISSING,img_0050,,model thấy person (conf 0.93) nhưng nhãn không có box nào ở đó,"{""conf"": 0.929, ""class_id"": 1, ""box"": [0.633003, 0.412085, 0.276831, 0.393241]}"
 second_opinion,warn,POSSIBLE_MISSING,img_0057,,model thấy person (conf 0.89) nhưng nhãn không có box nào ở đó,"{""conf"": 0.8893, ""class_id"": 1, ""box"": [0.563088, 0.690494, 0.298695, 0.13979]}"
@@ -90,6 +93,7 @@ second_opinion,warn,POSSIBLE_MISSING,img_0157,,model thấy person (conf 0.90) n
 second_opinion,warn,POSSIBLE_MISSING,img_0159,,model thấy person (conf 0.93) nhưng nhãn không có box nào ở đó,"{""conf"": 0.9289, ""class_id"": 1, ""box"": [0.318184, 0.490954, 0.471365, 0.933905]}"
 second_opinion,warn,POSSIBLE_MISSING,img_0165,,model thấy person (conf 0.82) nhưng nhãn không có box nào ở đó,"{""conf"": 0.8218, ""class_id"": 1, ""box"": [0.729386, 0.568185, 0.091538, 0.326269]}"
 second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0175,,box person lệch/lỏng so với model (IoU 0.42 < 0.5),"{""conf"": 0.8997, ""iou"": 0.4215, ""class_id"": 1}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0177,2,box bus ở dòng 2 không khớp vật nào model thấy (IoU tốt nhất 0.00),"{""iou"": 0.0, ""class_id"": 3}"
 second_opinion,warn,POSSIBLE_MISSING,img_0178,,model thấy person (conf 0.93) nhưng nhãn không có box nào ở đó,"{""conf"": 0.9324, ""class_id"": 1, ""box"": [0.52936, 0.150127, 0.281029, 0.123807]}"
 second_opinion,warn,POSSIBLE_FALSE_POS,img_0180,5,box bus ở dòng 5 không khớp vật nào model thấy (IoU tốt nhất 0.00),"{""iou"": 0.0, ""class_id"": 3}"
 second_opinion,warn,POSSIBLE_WRONG_CLASS,img_0183,,"nhãn ghi car nhưng model nói person (conf 0.91, IoU 0.94)","{""conf"": 0.9078, ""iou"": 0.9352, ""label_class"": 0, ""pred_class"": 1}"

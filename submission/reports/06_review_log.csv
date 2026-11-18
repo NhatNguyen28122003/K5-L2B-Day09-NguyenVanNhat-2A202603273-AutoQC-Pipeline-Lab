@@ -19,6 +19,7 @@ img_0066,đã duyệt: thay bằng nhãn người,FIXED_DROP_LINE;POSSIBLE_MISSI
 img_0001,đã duyệt: thay bằng nhãn người,FIXED_DROP_LINE;POSSIBLE_MISSING
 img_0202,đã duyệt: thay bằng nhãn người,POSSIBLE_WRONG_CLASS
 img_0019,đã duyệt: thay bằng nhãn người,POSSIBLE_WRONG_CLASS
+img_0021,đã duyệt: thay bằng nhãn người,POSSIBLE_WRONG_CLASS
 img_0124,đã duyệt: thay bằng nhãn người,POSSIBLE_WRONG_CLASS
 img_0071,đã duyệt: thay bằng nhãn người,POSSIBLE_WRONG_CLASS
 img_0068,đã duyệt: thay bằng nhãn người,POSSIBLE_FALSE_POS;POSSIBLE_MISSING
@@ -55,6 +56,7 @@ img_0220,đã duyệt: thay bằng nhãn người,POSSIBLE_MISSING
 img_0030,đã duyệt: thay bằng nhãn người,BOX_TINY;FIXED_CLIP_BOX;POSSIBLE_FALSE_POS
 img_0194,đã duyệt: thay bằng nhãn người,EMPTY_LABEL;FIXED_DROP_LINE
 img_0217,đã duyệt: thay bằng nhãn người,POSSIBLE_LOOSE_BOX
+img_0038,đã duyệt: thay bằng nhãn người,POSSIBLE_LOOSE_BOX
 img_0064,đã duyệt: thay bằng nhãn người,POSSIBLE_LOOSE_BOX
 img_0175,đã duyệt: thay bằng nhãn người,POSSIBLE_LOOSE_BOX
 img_0015,đã duyệt: thay bằng nhãn người,POSSIBLE_LOOSE_BOX
@@ -77,5 +79,3 @@ img_0117,đã duyệt: thay bằng nhãn người,FIXED_DROP_LINE
 img_0141,đã duyệt: thay bằng nhãn người,FIXED_DROP_LINE
 img_0149,đã duyệt: thay bằng nhãn người,POSSIBLE_FALSE_POS
 img_0150,đã duyệt: thay bằng nhãn người,POSSIBLE_FALSE_POS
-img_0179,đã duyệt: thay bằng nhãn người,FIXED_DROP_LINE
-img_0180,đã duyệt: thay bằng nhãn người,POSSIBLE_FALSE_POS
