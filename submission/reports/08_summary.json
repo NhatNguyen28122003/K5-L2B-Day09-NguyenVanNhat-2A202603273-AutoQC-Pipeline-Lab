@@ -1,0 +1,19 @@
+{
+  "verdict": {
+    "decision": "Release",
+    "n_errors": 0,
+    "n_warn_images": 13,
+    "n_images": 193,
+    "warn_ratio": 0.0674,
+    "reasons": [
+      "Không còn lỗi bắt buộc; 13/193 ảnh còn cảnh báo chưa duyệt (6.74% < ngưỡng 10.00%) -> được phát hành.",
+      "Đã bỏ qua cảnh báo của 80 ảnh đã được người duyệt."
+    ]
+  },
+  "reviewed": 80,
+  "budget": 80,
+  "seconds": 4.9,
+  "exported": "D:\\project\\AIthucchien\\K5-L2B-Day09-NguyenVanNhat-2A202603273-AutoQC-Pipeline-Lab\\submission\\export\\clean_v1",
+  "config_sha1": "c08543c40530663fda8784818698b874ce00e522",
+  "review_sim_sha1": "7988ca22827f780a7043a2300490e679a1697154"
+}

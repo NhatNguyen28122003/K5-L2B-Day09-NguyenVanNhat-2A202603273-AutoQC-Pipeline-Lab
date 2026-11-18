@@ -1,0 +1,28 @@
+check,severity,code,image,line,message,extra
+missing_labels,warn,EMPTY_LABEL,img_0097,,file nhãn rỗng: ảnh nền hay thiếu nhãn?,
+missing_labels,warn,EMPTY_LABEL,img_0129,,file nhãn rỗng: ảnh nền hay thiếu nhãn?,
+missing_labels,warn,EMPTY_LABEL,img_0147,,file nhãn rỗng: ảnh nền hay thiếu nhãn?,
+missing_labels,warn,EMPTY_LABEL,img_0184,,file nhãn rỗng: ảnh nền hay thiếu nhãn?,
+missing_labels,warn,EMPTY_LABEL,img_0192,,file nhãn rỗng: ảnh nền hay thiếu nhãn?,
+label_format,warn,BOX_HUGE,img_0018,1,box chiếm 97.0% ảnh (> 95%),"{""area_frac"": 0.9704854060160001}"
+label_format,warn,BOX_TINY,img_0026,6,cạnh ngắn của box 11.4px < 12.0px,"{""short_px"": 11.407912}"
+label_format,warn,BOX_TINY,img_0051,5,cạnh ngắn của box 8.9px < 12.0px,"{""short_px"": 8.90592}"
+label_format,warn,BOX_HUGE,img_0128,1,box chiếm 98.8% ảnh (> 95%),"{""area_frac"": 0.988382}"
+label_format,warn,BOX_TINY,img_0161,2,cạnh ngắn của box 10.3px < 12.0px,"{""short_px"": 10.25904}"
+label_format,warn,BOX_TINY,img_0161,3,cạnh ngắn của box 11.4px < 12.0px,"{""short_px"": 11.3952}"
+label_format,warn,BOX_TINY,img_0161,4,cạnh ngắn của box 11.9px < 12.0px,"{""short_px"": 11.86608}"
+label_format,warn,BOX_TINY,img_0183,11,cạnh ngắn của box 11.8px < 12.0px,"{""short_px"": 11.77984}"
+label_format,warn,BOX_HUGE,img_0196,1,box chiếm 98.4% ảnh (> 95%),"{""area_frac"": 0.9842264122159999}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0014,2,box person ở dòng 2 không khớp vật nào model thấy (IoU tốt nhất 0.15),"{""iou"": 0.145, ""class_id"": 1}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0022,2,box person ở dòng 2 không khớp vật nào model thấy (IoU tốt nhất 0.00),"{""iou"": 0.0, ""class_id"": 1}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0068,8,box person ở dòng 8 không khớp vật nào model thấy (IoU tốt nhất 0.20),"{""iou"": 0.1989, ""class_id"": 1}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0075,6,box person ở dòng 6 không khớp vật nào model thấy (IoU tốt nhất 0.11),"{""iou"": 0.1067, ""class_id"": 1}"
+second_opinion,warn,POSSIBLE_WRONG_CLASS,img_0078,,"nhãn ghi truck nhưng model nói car (conf 0.83, IoU 0.92)","{""conf"": 0.8287, ""iou"": 0.9189, ""label_class"": 2, ""pred_class"": 0}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0091,10,box truck ở dòng 10 không khớp vật nào model thấy (IoU tốt nhất 0.12),"{""iou"": 0.1236, ""class_id"": 2}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0124,8,box person ở dòng 8 không khớp vật nào model thấy (IoU tốt nhất 0.04),"{""iou"": 0.0362, ""class_id"": 1}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0131,11,box person ở dòng 11 không khớp vật nào model thấy (IoU tốt nhất 0.00),"{""iou"": 0.0, ""class_id"": 1}"
+second_opinion,warn,POSSIBLE_MISSING,img_0183,,model thấy person (conf 0.81) nhưng nhãn không có box nào ở đó,"{""conf"": 0.8104, ""class_id"": 1, ""box"": [0.355372, 0.516748, 0.02207, 0.102309]}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0189,4,box car ở dòng 4 không khớp vật nào model thấy (IoU tốt nhất 0.01),"{""iou"": 0.0092, ""class_id"": 0}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0191,1,box car ở dòng 1 không khớp vật nào model thấy (IoU tốt nhất 0.26),"{""iou"": 0.2564, ""class_id"": 0}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0206,1,box person ở dòng 1 không khớp vật nào model thấy (IoU tốt nhất 0.11),"{""iou"": 0.1083, ""class_id"": 1}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0212,4,box person ở dòng 4 không khớp vật nào model thấy (IoU tốt nhất 0.15),"{""iou"": 0.1501, ""class_id"": 1}"
